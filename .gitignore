@@ -1,0 +1,58 @@
+# ===========================
+# 📦 JULIA
+# ===========================
+
+# Ignore compiled files and temporary build artifacts
+*.ji
+*.o
+*.so
+*.dylib
+*.dll
+*.exe
+*.dSYM/
+
+# Julia package artifacts and build folders
+.julia/
+artifacts/
+deps/
+logs/
+coverage/
+
+# Julia environment logs
+*.log
+
+# Keep essential files
+!Project.toml
+!Manifest.toml
+
+
+# ===========================
+# 📒 JUPYTER NOTEBOOKS
+# ===========================
+
+# Ignore all Jupyter checkpoint folders, no matter where they are
+**/.ipynb_checkpoints/
+
+
+# ===========================
+# 🪟 WINDOWS SYSTEM FILES
+# ===========================
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+
+# ===========================
+# 🛠️ IDE/EDITOR FILES
+# ===========================
+
+# VS Code settings
+.vscode/
+
+# ===========================
+# 🐍 PYTHON
+# ===========================
+
+__pycache__/
+*.py[cod]
