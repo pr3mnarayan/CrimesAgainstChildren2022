@@ -1,4 +1,4 @@
-# Crimes Against Children Analysis in India (2022) using Julia
+# Crimes Against Children in India (2022): Data Cleaning, Analysis, and Visualization Using Julia
 
 This project analyzes state-wise crime data against children in India for the year 2022, leveraging **Julia** for data cleaning, exploration, and static visualizations. The aim is to uncover key patterns across states, crime categories, and gender, providing insights for awareness and policy considerations.
 
@@ -23,7 +23,7 @@ This project analyzes state-wise crime data against children in India for the ye
 
 Raw dataset is stored in `CrimesAgainstChildren2022/Data/crimesAgainstChildren2022.csv`
 
-**Source:** [data.gov.in – State/UT-wise Number of IPC and SLL Crimes Against Children (2022)](https://www.data.gov.in/resource/stateut-wise-number-indian-penal-code-ipc-and-special-and-local-laws-sll-crimes-against)
+**Source:** [data.gov.in – State/UT-wise Number of IPC and SLL Crimes Against Children (2022)](https://www.data.gov.in/resource/stateut-wise-number-indian-penal-code-ipc-and-special-and-local-laws-sll-crimes-against).
 **Scope:** All Indian states and union territories (36 rows) with over 200 columns capturing IPC/SLL references, gender              breakdown, and rate metrics.  
 **Key fields:**  
   - Crime type columns (Incidents, Victims, Rates), often with IPC section references.  
